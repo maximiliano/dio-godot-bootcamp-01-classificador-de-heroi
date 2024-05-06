@@ -4,7 +4,7 @@
 You can use the super duper hero classifier to get the might rank of any hero!
 
 ## Requirements
-You must `node` properly installed and configured.
+You must have `node` properly installed and configured.
 
 ## How to use
 
