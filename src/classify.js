@@ -2,7 +2,7 @@ let name = "John Doe";
 let xp = 1000;
 let rank = null;
 
-function grade_hero() {
+function gradeHero() {
   if (xp <= 1000) {
     rank = "Iron";
   } else if (xp >= 1001 && xp <= 2000) {
@@ -29,14 +29,14 @@ function grade_hero() {
 
 if (process.argv.length === 2) {
   // We've got no arguments, just use default ones
-  grade_hero();
+  gradeHero();
   console.log("You can also pass your own hero name and xp!");
   console.log('Like this: classify.js "Grok the Dwarf" 3000');
 } else if (process.argv.length === 4) {
   // We've got 2 arguments, name and xp
   name = process.argv[2];
   xp = process.argv[3];
-  grade_hero();
+  gradeHero();
 } else {
   // We've got an invalid number of arguments
   console.log("Heeey, you should pass two arguments: Hero Name and XP");
