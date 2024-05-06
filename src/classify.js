@@ -33,7 +33,7 @@ if (process.argv.length === 2) {
   console.log("You can also pass your own hero name and xp!");
   console.log('Like this: classify.js "Grok the Dwarf" 3000');
 } else if (process.argv.length === 4) {
-  // We've got 2 arguments, name and xp
+  // We've got 2 arguments: name and xp
   name = process.argv[2];
   xp = process.argv[3];
   gradeHero();

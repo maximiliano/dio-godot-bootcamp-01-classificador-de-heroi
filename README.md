@@ -11,7 +11,7 @@ You must `node` properly installed and configured.
 ### Boring way
 Run the command line without arguments for a default and boring result:
 
-    # node src/classify.js
+    $ node src/classify.js
 
 Output:
 
@@ -24,7 +24,7 @@ Output:
 ### Cool way
 For the fun way, pass the hero name and xp as arguments:
 
-    # node src/classify.js "Grok the Smasher" 3500
+    $ node src/classify.js "Grok the Smasher" 3500
 
 Output:
 
